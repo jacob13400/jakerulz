@@ -19,6 +19,7 @@ class Sequence
         for (int i = 0; i < arr2.length; i++) {
             arr2[i] = input.nextShort();
         }
+		//Flag operator
         boolean ada=false;
         for (int x = 0; x < arr1.length; x++) {
             for (int i = 0; i < arr2.length; i++) {
@@ -29,6 +30,7 @@ class Sequence
                     ada = false;
                 }
             }
+		//Checking for unequal members and giving output
             if (ada == false) {
                 System.out.print(arr1[x] + " ");
             }
